@@ -1,0 +1,43 @@
+body {
+    position:relative;
+    font-size: 18px;
+    color: white;
+    background-color:rgb(231, 231, 231);
+}
+.navbar-brand {
+    background: rgb(1, 168, 168);
+    color:white;
+    font-size: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*.dropdown-select-item {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-select-item a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown_menu {
+    position: relative;
+    display: inline-block;
+}*/
+/* Navbar container */
+/*.navbar {
+   
+    background-color: #333;
+    font-family: Arial;
+  }
+ 

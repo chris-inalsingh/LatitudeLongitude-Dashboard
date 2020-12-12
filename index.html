@@ -5,19 +5,42 @@
         img{ width:auto;height:auto; max-width: 100%; max-height:100%}
     </style>
     <title>index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="first_section">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="header">
-                    <div class ="line1"><h1>Latitude</h1></div>
-                </div>
-            </div>
-
-        </div>
+   
+    <div class="container-lg">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand my-auto" >Latitude</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100" style="justify-content: flex-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Temperature.html"">Action</a>
+                            <a class="dropdown-item" href="Humidity.html">Another action</a>
+                            <a class="dropdown-item" href="Cloudiness.html">Something else here</a>
+                            <a class="dropdown-item" href="Wind_Speed.html">Something else here</a>
+                        </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Comparison.html">Comparison</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Data.html">Data</a>
+                          </li>
+                </ul>
+            </div>    
+        </nav>
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 
 
